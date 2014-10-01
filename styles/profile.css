@@ -1,0 +1,101 @@
+﻿html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    white-space: nowrap;
+}
+
+#sidebar {
+    background: white;
+    width: 200px;
+    height: 300px;
+    vertical-align: top;
+    margin-right: 5px;
+    display: inline-block;
+    font-size: 0;
+    text-align: left;
+}
+
+    #sidebar ul {
+        padding: 0px;
+        margin: 0px;
+        font-size: 15px;
+        color: #FFF;
+        list-style: none;
+        text-indent: 15px;
+    }
+
+        #sidebar ul li {
+            background: Lightgrey;
+            line-height: 28px;
+            border: 1px solid grey;
+        }
+
+            #sidebar ul li:first-child {
+                border-top-left-radius: 1em;
+            }
+
+            #sidebar ul li:last-child {
+                border-bottom-left-radius: 1em;
+            }
+
+            #sidebar ul li a {
+                text-decoration: none;
+                color: black;
+                display: block;
+            }
+
+                #sidebar ul li a:hover {
+                    background: white;
+                    font-weight: bold;
+                }
+
+.imageContainer {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    border-image-width: 2px;
+}
+
+    .imageContainer img {
+        height: 100%;
+        width: 100%;
+        padding: 1px;
+        border: 2px solid white;
+        box-shadow: 2px 2px 2px 2px #888888;
+    }
+
+#content {
+    background: white;
+    width: 475px;
+    height: 550px;
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 0;
+}
+
+    #content p {
+        color: black;
+        font-size: 12px;
+        text-align: left;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        position: relative;
+        white-space: normal;
+        word-wrap: break-word;
+    }
+
+#profileNameContainer p {
+    margin-bottom: 5px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bolder;
+}
